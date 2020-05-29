@@ -1,4 +1,4 @@
-package main.java.bijles.inas.test.models;
+package bijles.inas.test.models;
 
 public class User {
     private int id;

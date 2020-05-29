@@ -5,7 +5,15 @@ import org.junit.Test;
 
 public class UserTest {
     @Test
-    public void userTestSuccess() {
-        Assert.assertTrue(true);
+    public void userSetUsernameSuccessTest() {
+        // Arrange
+        User user = new User();
+        String username = "kevinbeye";
+
+        // Act
+        user.setUsername(username);
+
+        // Assert
+        Assert.assertEquals(username, user.getUsername());
     }
 }
